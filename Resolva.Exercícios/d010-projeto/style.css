@@ -1,0 +1,131 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'droid';
+    src: url('fontes/idroid.otf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    background-color: #A6E0B4;
+    margin: auto;
+}
+
+header {
+    background-image: linear-gradient(to bottom,#42FA79, #30613F);
+    color: white;
+    height: 200px;
+    padding: 10px;
+    border: 0px solid;
+    margin: auto;
+   
+}
+.inicio {
+    text-decoration: none;
+    padding: 15px;  
+    color: white;
+    text-align: left;
+}
+
+.inicio:hover {
+    color: #57AD71;
+    text-decoration: underline;
+}
+
+.link {
+    color: #30613F;
+    text-decoration: none;
+    padding: 1px;
+    font: 900;
+    background-image: linear-gradient(to right, #42fa793c, #42fa7900 );
+}
+
+span {
+    color: #57AD71;
+
+}
+
+.link:hover {
+    color: #162c1d;
+    text-decoration: underline;
+}
+
+.center {
+    text-align: center;
+}
+
+
+.droidf {
+    font-family: droid;
+    color:  #30613F;
+}
+
+h2 {
+    background-image: linear-gradient(to right, #42fa793c, #42fa7900 );
+    padding: 2px 8px 2px 8px;
+}
+
+main {
+    background-color: white;
+    width: 800px;
+    padding: 10px 30px 0px 30px;
+    margin: auto;
+}
+
+img {
+    margin: auto;
+    display: block;
+    
+}
+
+picture {
+    margin: auto;
+    display: block;
+    
+}
+
+#video {
+    border: 20px solid #30613F ;
+    margin: 0;
+    width: 760px;
+}
+
+
+p {
+    text-indent: 16px;
+}
+
+footer {
+    background-color: white;
+    width: 800px;
+    padding: 30px;
+    margin: auto;
+}
+
+footer > article {
+    background-color: #a6e0b372;
+    border-radius: 10px 10px 10px 10px;
+    
+}
+
+h3 { 
+    background-color: #57AD71;
+    border-radius: 10px 10px 0px 0px;
+    color: white;
+    padding: 20px;
+}
+
+#final {
+    text-align: center;
+    background-color: #30613F;
+    color: white;
+    padding: 10px;
+}
+
+ul {
+    display: inline-block;
+    margin: 0 0 0 15px;    
+}

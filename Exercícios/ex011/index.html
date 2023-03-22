@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente altere o tamanho do seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-pequena.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-grande.png" alt="Imagem flexível">
+        <!--Se a tela do usuário chegar a menos de 750px será utilizada a foto pequena, menos de 1050px a foto média e acima de 1050x a foto grande.-->
+        <!--<source media="(min-width: 1000px)" srcset="imagens/foto-grande.png" type="image/png">
+        <source media="(min-width: 700px)" srcset="imagens/foto-media.png" type="image/png">
+        <img src="imagens/foto-pequena.png" alt="Imagem flexível">
+         enquanto a tela do usuário não for menor que 1000px se manterá a foto grande, enquanto a tela do usuário não for menor que 700px se manterá a foto média e se for abaixo de 700px ficará a foto pequena-->
+    </picture>
+
+    <h1>Reproduzindo Aúdio</h1>
+    <p>Vamos aprender a reproduzir aúdios em HTML5</p>
+    <audio src="midia/duzz.mp3" controls autoplay> </audio>
+    <!--Compatibilidade com: MP3 WAV OGG -->
+    <h2>Aúdios:</h2>
+    <audio controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/guanacast-33.ogg" type="audio/ogg">
+        <source src="midia/guanacast-33.wav" type="audio/wav">
+        <p>Infelizmente seu navegador não consegue reproduzir aúdio. <a href="midia/guanacast-33.mp3">Clique aqui para baixar o arquivo MP3.</a></p>
+    </audio>
+    
+
+    
+</body>
+</html>
