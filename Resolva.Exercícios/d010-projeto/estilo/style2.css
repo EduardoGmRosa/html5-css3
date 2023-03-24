@@ -49,16 +49,19 @@ header > h1 {
     font-size: 3em;
     font-weight: normal;
     margin-bottom: 20px;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.408);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.28);
 }
 
 header > p {
     color: white;
     font-family: var(--fonte-padrao); 
     font-size: 1.2em;
-    max-width: 500px;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 50px;
+    max-width: 600px;
     margin: auto;
-    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.406);
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.349);
 }
 
 nav {
@@ -70,8 +73,8 @@ nav {
 nav > a {
     color: white;
     padding: 10px;
+    border-radius: 5px;
     text-decoration: none;
-    margin-top: 40px;
     font-weight: bold;
     transition-duration: 0.3s;
     
@@ -81,7 +84,6 @@ nav > a:hover {
     background-color: var(--cor3);
     color: var(--cor5);
     text-decoration: underline;
-    border-radius: 5px;
 }
 
 main {
@@ -152,7 +154,7 @@ main p {
 
 main strong {
     color: var(--cor4);
-    font-weight: bold;
+    font-weight: bolder;
 }
 
 main a {
@@ -160,7 +162,7 @@ main a {
     font-weight: bold;
     color: var(--cor4);
     background-image: linear-gradient(to right, #1a5c3760, transparent);
-    padding: 2px 0px;
+    padding: 2px 6px;
 }
  
 main a:hover {
