@@ -7,16 +7,28 @@
     <title>Document</title>
     <style>
         body {
-            height: 100vh; /*Viewport da página*/
-            background-color: black;
+            /*height: 100vh; /*Viewport da página*/
+            /*background-color: black;
             background-image: url('imagens/wallpaper002.jpg');
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
-            /* contain: alinha a imagem ao tamanho do site porém não exibe toda imagem
+            background-attachment: fixed;  */
+
+            /*Shorthand - Background
+                Color > Image > Position > Repeat > [Size] > Attachment
+            */
+            background: black url('imagens/wallpaper002.jpg') center center no-repeat fixed;
+            background-size: cover;
+        }
+         /* contain: alinha a imagem ao tamanho do site porém não exibe toda imagem
                auto: deixa o site se auto ajustar a imagem
                cover: apresenta toda a imagem ajustando ao tamanho
             */
+    
+        h1 {
+            margin-top: 5px;
+            margin-bottom: 5px;
         }
 
 
@@ -26,7 +38,7 @@
             width: 400px;
             padding: 10px;
             margin: auto;
-            box-shadow: 2px 2px 6px skyblue;
+            box-shadow: 1px 1px 1px skyblue;
             border-radius: 15px;
         }
     </style>
@@ -35,6 +47,8 @@
     <main>
         <h1>Teste de imagem de fundo</h1>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo a quis labore qui id tempore odit possimus quae, esse quia in eligendi ullam voluptatum deleniti nobis beatae. Repellendus, tempore eligendi? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur in incidunt ipsum facere voluptates quaerat, ea eos, eligendi perspiciatis illum libero debitis eius eum officia suscipit. Perferendis amet eligendi optio! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nulla nam tempore cum quibusdam, ducimus hic itaque magni eligendi, mollitia laboriosam vero ex officiis. Corrupti enim velit perferendis veritatis alias! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed dicta ad sequi dolore provident eius atque, id eveniet libero ducimus, quaerat natus quidem deleniti. Eveniet consequatur distinctio obcaecati eaque iste.</p>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi aliquid eos natus nemo autem voluptatibus rem laudantium dolores, ipsa, dignissimos modi error, nulla id sapiente numquam? Molestias qui quam explicabo? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptas laboriosam dolorum velit dolore libero, aperiam ab perferendis cupiditate aspernatur est quam exercitationem maiores, magnam reprehenderit nemo officiis beatae placeat repellat. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione odio nesciunt ipsa similique temporibus, dicta, quo assumenda aliquam soluta vero corrupti! Id aut in, veniam sunt sit laboriosam odio ex! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Assumenda placeat ipsum, quaerat dolores perspiciatis quas voluptatibus itaque! Saepe atque, dolor distinctio, animi tempora magni at nihil laborum consequatur dolorum cupiditate. Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aut similique labore explicabo eius, error nesciunt iusto accusantium odio, ratione incidunt maiores aspernatur, quas nisi molestiae ipsum sed ipsa odit.</p>
+        <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptatibus itaque error maiores quo quas earum commodi ut unde nam recusandae ea corporis at blanditiis, nobis nulla nostrum provident quae cum. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam, consectetur magnam dicta vitae quasi eum maxime cum quis. Porro doloremque asperiores alias! Quisquam nam et alias quas quibusdam repudiandae cupiditate.</p>
        
     </main>
     
