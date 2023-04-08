@@ -1,0 +1,6 @@
+Se não declarar nenhum method, o padrão é o "GET"
+GET declara as informações na URL
+
+Situações:
+GET: dados não sensiveis, EX: Nome, Sobrenome, Idade, Sexo, etc.
+POST: Fotos, informações sensíveis, ex: CEP, nº de cartão de crédito, senhas, etc.
