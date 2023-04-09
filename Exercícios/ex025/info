@@ -4,3 +4,24 @@ GET declara as informações na URL
 Situações:
 GET: dados não sensiveis, EX: Nome, Sobrenome, Idade, Sexo, etc.
 POST: Fotos, informações sensíveis, ex: CEP, nº de cartão de crédito, senhas, etc.
+
+
+<!--
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        * {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+</body>
+</html>
+-->
