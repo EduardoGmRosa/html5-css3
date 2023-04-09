@@ -5,6 +5,8 @@ Situações:
 GET: dados não sensiveis, EX: Nome, Sobrenome, Idade, Sexo, etc.
 POST: Fotos, informações sensíveis, ex: CEP, nº de cartão de crédito, senhas, etc.
 
+Quando utilizar métodos de envio (fotos,documentos, pdf, etc) Utilizar o method = "POST"
+
 
 <!--
 <!DOCTYPE html>
@@ -22,6 +24,11 @@ POST: Fotos, informações sensíveis, ex: CEP, nº de cartão de crédito, senh
 </head>
 <body>
     <h1>Teste de formulário</h1>
+    <form action="cadastro.php" method="get" autocomplete="on">
+
+
+
+    </form>
 </body>
 </html>
 -->
